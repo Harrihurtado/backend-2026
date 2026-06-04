@@ -34,7 +34,7 @@ async function bootstrap() {
 
   // Swagger configuration
   const config = new DocumentBuilder()
-    .setTitle('NestJS API')
+    .setTitle('Harrisson M.')
     .setDescription(
       'RESTful API with CRUD operations for Users, Categories, Products, Orders and Order Items',
     )
