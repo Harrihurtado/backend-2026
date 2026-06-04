@@ -93,7 +93,7 @@ docker compose up -d
 Once the application is running, access the interactive API docs at:
 
 ```
-http://localhost:3000/api
+https://backend-2026-mg07.onrender.com/docs
 ```
 
 ---
