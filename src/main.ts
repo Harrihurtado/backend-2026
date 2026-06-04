@@ -11,7 +11,9 @@ async function bootstrap() {
   const configService = app.get(ConfigService);
 
   // Global prefix
-  app.setGlobalPrefix('api');
+  app.setGlobalPrefix('api', {
+  exclude: ['docs'],
+});
 
   // Global validation pipe
   app.useGlobalPipes(
